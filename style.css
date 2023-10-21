@@ -1,0 +1,270 @@
+.image{
+    display: flex;
+     align-items: center;
+    flex-direction: column;
+
+    background-position: center;
+    border: solid 2px black;
+    background-image: url('buildings.jpg');
+    width: 1200px;
+    height: 600px;
+    background-size: cover;
+    margin: 0 auto; 
+    /*this used to center the image*/
+    margin-top: 50px;
+    
+}
+
+.personnalImage{
+    border: solid 2px rgb(143, 189, 250);
+    width: 200px;
+    height: 200px;
+    background-image: url('profile.jpg');
+    background-size: contain;
+    border-radius: 10px;
+    margin-top: 110px;
+}
+
+.name{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    font-family:  sans-serif;
+    margin-top: 12px;
+}
+
+.Student{
+    color: white;
+    font-size: 18px;
+    margin-top: 8px;
+ }
+
+i{
+    color: lightgray;
+    margin: 20px;
+    font-size: 50px;
+
+}
+
+.icon{
+    font-size: 30px;
+ }
+
+ .container{
+   /* border: 1px solid black;*/
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.25),0 3px 10px 0 rgba(0,0,0,.2)!important;
+
+    display: grid;
+    grid-template-columns: 4fr 3fr;  
+    grid-gap: 10px; 
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+
+.slot {
+  /*  border: 1px solid black;  */
+    padding: 10px;  
+    margin-left: 10px;
+    margin-right: 25px;
+}
+.slot2{
+    margin-top: 73px;
+}
+.description{
+    font-family: sans-serif;
+     font-size: 35px;
+    color: rgb(81, 77, 77);
+}
+
+
+.me{
+    font-size: 20px;
+    font-family: sans-serif;
+   color: rgb(81, 77, 77);
+}
+
+.bio{
+    display: grid;
+    grid-template-columns: 4fr 3fr;  
+    grid-gap: 0px; 
+}
+
+.bio i{
+    color: black;
+ }
+
+ .bio-description{
+    font-size: 18px;
+    font-family: sans-serif;
+   color: rgb(81, 77, 77);
+   font-weight: bold;
+ }
+
+ .details{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(81, 77, 77);
+ }
+
+ body{
+    background-color: white;
+ }
+
+
+ .container2{
+    /* border: 1px solid black;*/
+     width: 1200px;
+     margin: 0 auto;
+     margin-top: 20px;
+ 
+     box-shadow: 0 2px 5px 0 rgba(0,0,0,.25),0 3px 10px 0 rgba(0,0,0,.2)!important;
+ 
+     display: grid;
+     grid-template-columns: 1fr 1fr;  
+     grid-gap: 10px; 
+     border-radius: 10px;
+     background-color: lightgrey;
+ }
+
+                                /* SKILLS */
+ /* progress bar */
+.progress-bar {
+    margin-bottom: 10px;
+}
+
+.bar {
+    background-color: #f0f0f0;
+    height: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.java-progress,
+.kotlin-progress,
+.python-progress,
+.html-progress,
+.css-progress,
+.script-progress{
+    height: 100%;
+    border-radius: 5px;
+    width: 0;
+    background-color: #007acc; /* You can change the color to your preference */
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+.java-progress::after,
+.kotlin-progress::after,
+.python-progress::after,
+.html-progress::after,
+.css-progress::after,
+.script-progress::after {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.java-progress {
+    width: 85%; /* Adjust the width to represent your skill level */
+}
+
+.kotlin-progress {
+    width: 88%; /* Adjust the width to represent your skill level */
+}
+
+.python-progress {
+    width: 70%; /* Adjust the width to represent your skill level */
+}
+.html-progress{
+    width: 85%;
+}
+.css-progress{
+    width: 70%;
+}
+.script-progress{
+    width: 40%;
+}
+ 
+
+.language-name{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #4c4c4c;
+}
+
+                                    /*     education         */
+.education-entry {
+    margin-bottom: 10px;
+
+}
+
+.degree {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.university {
+    color: #4c4c4c;
+    font-weight: bold ;
+    font-style: italic;
+}
+
+.dot {
+    color: #007acc;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0 5px;
+}
+
+.expected-graduation {
+    font-style: none;
+    color: #555;
+}
+
+.institution {
+    font-weight: bold;
+    font-style: italic;
+    color: #555;
+}
+.certificate{
+    font-size: 15px;
+    color: rgb(61, 61, 61);
+
+}
+.slot3{
+    margin-top: 103px;
+}
+            /*footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+#footer-name{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #666767;
+}
+
+.icon2{
+    color: black;
+}
+
+.icons2 i{
+    color: rgb(84, 83, 83);
+    margin-top: 0;
+    font-size: 20px;
+}
